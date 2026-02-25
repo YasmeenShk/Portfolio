@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  /* font-family: "Times New Roman",'Times','Serif'; */
+  font-family: "Poppins";
+}
+
+body{
+ width: 100%;
+ height: 100vh;
+ overflow-x: hidden;
+ background-color: black;
+ color: white;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 3px solid #facc15;
+
+  animation: float 4s ease-in-out infinite;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+/* Hover effect */
+.profile-img:hover {
+  animation-play-state: paused; 
+  transform: scale(1.06);
+  box-shadow: 0 0 35px rgba(250, 204, 21, 0.7);
+}
+/* Floating animation */
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+button {
+  transition: transform 0.3s ease;
+}
+button:hover {
+  transform: translateY(-3px);
+}
+
+.typing-text::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+/* hovering */
+.hovering:hover{
+  color: rgb(198 166 45);
+  text-decoration:underline;
+
+}
+
+/* project card */
+.project-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10
+  rounded-2xl shadow-lg overflow-hidden
+  transition duration-500 transform-gpu
+  hover:scale-[1.04] hover:-translate-y-2 hover:shadow-2xl;
+}
+
+
+/* skills */
+.skill-item{
+  @apply flex flex-col items-center gap-3
+  mb-5 md:mb-0
+  ;
+}
+
+.skill-circle{
+  @apply
+   w-16 h-16 
+  md:w-24 md:h-24
+  lg:w-32 lg:h-32 rounded-full border border-white/20
+  bg-white/5 backdrop-blur-lg shadow-lg 
+  flex flex-col items-center justify-center gap-2
+  overflow-hidden
+  text-xs text-gray-300
+  transition duration-300 hover:scale-110 hover:border-[rgb(198_166_45)];
+}
+
+/* contact */
+.contact-input{
+  @apply w-full bg-white/5 border border-[rgba(198,166,45,0.6)]
+  rounded-xl px-5 py-3 text-gray-200
+  focus:outline-none focus:border-[rgb(198_166_45)]
+  focus:ring-1 focus:ring-[rgb(198_166_45)]
+  backdrop-blur-md transition;
+}
