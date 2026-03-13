@@ -7,8 +7,7 @@ It highlights my frontend development work, responsive design approach, and UI s
 
 ## 🚀 Live Demo
 
-👉[https://yasmeenshk.github.io/Portfolio/]
-
+[Portfolio](https://yasmeen-shk-portfolio.netlify.app/)
 ---
 
 ## ✨ Features
