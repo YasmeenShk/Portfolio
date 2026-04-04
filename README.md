@@ -7,7 +7,7 @@ It highlights my frontend development work, responsive design approach, and UI s
 
 ## 🚀 Live Demo
 
-[Portfolio](https://yasmeen-shk-portfolio.netlify.app/)
+[Portfolio-link](https://yasmeenshk.vercel.app/))
 ---
 
 ## ✨ Features
@@ -48,7 +48,7 @@ portfolio/
 ## 📬 Contact Me
 
 * GitHub: https://github.com/YasmeenShk
-* LinkedIn: https://www.linkedin.com/in/yasmeen-shaikh-151421365
+* LinkedIn: (https://www.linkedin.com/in/yasmeenshk)
 * Email: [yasmeen.shk000@gmail.com](mailto:yasmeen.shk000@gmail.com)
 
 ---
