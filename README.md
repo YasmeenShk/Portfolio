@@ -7,7 +7,7 @@ It highlights my frontend development work, responsive design approach, and UI s
 
 ## 🚀 Live Demo
 
-[Portfolio-link](https://yasmeenshk.vercel.app/))
+[Portfolio-link](https://yasmeenshk.vercel.app/)
 ---
 
 ## ✨ Features
