@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio – Yasmeen Shaikh
+# 🌐 Personal Portfolio – 
 
 This is my personal developer portfolio website built to showcase my skills, projects, and contact information.
 It highlights my frontend development work, responsive design approach, and UI styling using modern web tools.
