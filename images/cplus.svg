@@ -1,0 +1,5 @@
+<!-- C++ SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 288" class="w-10 h-10">
+  <path fill="#00599C" d="M255.8 85.1c0-5.4-2.9-10.4-7.6-13.1L141.6 8.5c-4.7-2.7-10.5-2.7-15.2 0L19.8 72C15.1 74.7 12.2 79.7 12.2 85.1v117.8c0 5.4 2.9 10.4 7.6 13.1l106.6 63.5c4.7 2.7 10.5 2.7 15.2 0l106.6-63.5c4.7-2.7 7.6-7.7 7.6-13.1V85.1z"/>
+  <text x="50%" y="55%" text-anchor="middle" fill="white" font-size="90" font-family="Arial" dy=".3em">C++</text>
+</svg>
